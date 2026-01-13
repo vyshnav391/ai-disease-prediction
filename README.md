@@ -7,26 +7,26 @@ This project demonstrates the complete lifecycle of an ML system — from data p
 
 ## Overview
 
-The AI-Based Multiple Disease Prediction System provides an intelligent decision-support tool that enables early-stage disease risk assessment.  
-The application processes user inputs, applies trained machine learning models, and returns real-time predictions through a Flask-powered web interface.
+The AI-Based Multiple Disease Prediction System serves as an intelligent decision-support tool for early-stage disease risk assessment.  
+The application processes user inputs, applies trained machine learning models, and delivers real-time predictions through a Flask-powered web interface.
 
-This project was developed as part of academic work at **SRM Institute of Science and Technology** with an emphasis on industry best practices.
+Developed as part of academic work at **SRM Institute of Science and Technology**, the project emphasizes industry-aligned engineering practices.
 
 ---
 
 ## Key Features
 
-- End-to-end machine learning pipeline implementation  
-- Multi-model training and performance comparison  
-- Optimized data preprocessing and feature engineering  
-- Real-time predictions via a web application  
-- Clean, maintainable, and extensible codebase  
+- End-to-end machine learning pipeline  
+- Multiple model training and performance comparison  
+- Advanced data preprocessing and feature engineering  
+- Real-time prediction via a web interface  
+- Clean, modular, and extensible design  
 
 ---
 
 ## Technology Stack
 
-- **Language:** Python  
+- **Programming Language:** Python  
 - **Machine Learning:** Scikit-learn  
 - **Web Framework:** Flask  
 - **Data Processing:** Pandas, NumPy  
@@ -43,17 +43,25 @@ The following algorithms were implemented and evaluated:
 - Random Forest Classifier  
 - Support Vector Machine (SVM)  
 
-Model selection was based on accuracy, precision, recall, and overall reliability.
+Models were compared using metrics such as accuracy, precision, recall, and robustness before final selection.
 
 ---
 
 ## System Workflow
 
 1. User submits health-related input parameters  
-2. Input data undergoes preprocessing and normalization  
-3. Trained machine learning models analyze the data  
-4. Disease prediction is generated  
-5. Results are displayed instantly through the web interface  
+2. Input data is preprocessed and normalized  
+3. Trained ML models analyze the data  
+4. Disease risk prediction is generated  
+5. Results are displayed instantly via the web interface  
+
+---
+
+## Results & Performance
+
+- Achieved high prediction accuracy through feature selection and hyperparameter tuning  
+- Random Forest and SVM models demonstrated strong generalization performance  
+- System delivers low-latency predictions suitable for real-time use  
 
 ---
 
